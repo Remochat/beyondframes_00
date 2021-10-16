@@ -535,7 +535,7 @@ b i:last-child {
   animation: intro 1s;
 }
 
-.scroll {
+.scroll {         
   display: block;
   width: 3px;
   height: 3px;
@@ -594,16 +594,18 @@ b i:last-child {
   }
 }
 
-/* text rotate */
+/* TEXT ROTATE */
 .box-headline {
   font-size: 130px;
   line-height: 1.0;
   font-family: "Graphit-Regular", "Poppins";
+
 }
 
 .box-words-wrapper {
   display: inline-block;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .box-words-wrapper b {
@@ -612,11 +614,12 @@ b i:last-child {
   white-space: nowrap;
   left: 0;
   top: 0;
-}
+  }
 
 .box-words-wrapper b.is-visible {
   position: relative;
-}
+  vertical-align: middle;
+  }
 
 .no-js .box-words-wrapper b {
   opacity: 0;
@@ -655,13 +658,13 @@ b i:last-child {
 }
 
 .box-headline.rotate-2 i.in {
-  -webkit-animation: box-rotate-2-in 0.4s forwards;
-  animation: box-rotate-2-in 0.4s forwards;
+  -webkit-animation: box-rotate-2-in .8s forwards;
+  animation: box-rotate-2-in .8s forwards;
 }
 
 .box-headline.rotate-2 i.out {
-  -webkit-animation: box-rotate-2-out 0.4s forwards;
-  animation: box-rotate-2-out 0.4s forwards;
+  -webkit-animation: box-rotate-2-out .8s forwards;
+  animation: box-rotate-2-out 0.8s forwards;
 }
 
 .box-headline.rotate-2 em {
@@ -750,7 +753,7 @@ b i:last-child {
   }
 }
 
-/* portfolio section
+/* PORTFOLIO SECTION
 ==================================================*/
 .portfolio .categories-grid span {
   font-size: 30px;
