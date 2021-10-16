@@ -753,6 +753,13 @@ b i:last-child {
   }
 }
 
+/* INTRODUCTION SECTION
+==================================================*/
+.align-content{
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
 /* PORTFOLIO SECTION
 ==================================================*/
 .portfolio .categories-grid span {
