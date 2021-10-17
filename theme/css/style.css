@@ -148,10 +148,10 @@ a {
   transform: translateY(30px);
   animation: apparition 0.8s 0s ease-out forwards;  /** POUR RALLENTIR VERS LA FIN ET CONSERVER VALEUR DE FIN **/
 }
-
+  
 .translateY-02 {
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(50px);
   animation: apparition 1.2s 0.4s ease-out forwards;  
 }
 
