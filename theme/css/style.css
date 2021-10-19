@@ -106,6 +106,10 @@ body {
   overflow-x: hidden;
 }
 
+html { 
+  scroll-behavior: smooth; 
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -146,25 +150,25 @@ a {
 .translateY-01 {
   opacity: 0;
   transform: translateY(30px);
-  animation: apparition 0.8s 0s ease-out forwards;  /** POUR RALLENTIR VERS LA FIN ET CONSERVER VALEUR DE FIN **/
+  animation: apparition 0.8s 0.2 ease-out forwards;  /** POUR RALLENTIR VERS LA FIN ET CONSERVER VALEUR DE FIN **/
 }
   
 .translateY-02 {
   opacity: 0;
   transform: translateY(50px);
-  animation: apparition 1.2s 0.4s ease-out forwards;  
+  animation: apparition 1.2s 0.2s ease-out forwards;  
 }
 
 .translateY-03 {
   opacity: 0;
   transform: translateY(30px);
-  animation: apparition 0.8s 1.2s ease-out forwards;  
+  animation: apparition 1.2s 1.6s ease-out forwards;  
 }
 
 .translateY-04 {
   opacity: 0;
   transform: translateY(30px);
-  animation: apparition 0.8s 1.6s ease-out forwards;  
+  animation: apparition 1.2s 2s ease-out forwards;  
 }
 
 @keyframes apparition {   /** EN LIEN AVEC DIV translateY **/
