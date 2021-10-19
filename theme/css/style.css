@@ -319,7 +319,7 @@ h6 {
 }
 
 .box-header {
-  height: 80px;
+  height: 100px;
   background: transparent;
   box-shadow: none;
 }
@@ -597,6 +597,20 @@ b i:last-child {
   text-align: center;
 }
 
+/* layers */
+.layers01 {
+  position:absolute;
+  right: -200px;
+  top: -200px;
+}
+
+.layers02 {
+  position:absolute;
+  left: -2%;
+  top: 200px;
+}
+
+
 /* mouse effect */
 .mouse {
   position: absolute;
@@ -675,7 +689,6 @@ b i:last-child {
   font-size: 130px;
   line-height: 1.0;
   font-family: "Graphit-Regular", "Poppins";
-
 }
 
 .box-words-wrapper {
@@ -831,7 +844,7 @@ b i:last-child {
 
 /* INTRODUCTION SECTION
 ==================================================*/
-.align-content{
+.align-content {
   text-align: center;
   margin-bottom: 6rem;
 }
