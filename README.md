@@ -12,4 +12,4 @@ beyond frames. was born from the desire to offer communication quality services,
 * **SEO & SEA**
 
 #### License
-Copyright &copy; 2021 Designed, developed &amp; propulsed by [beyondframes.](https://beyondframes.fr-theme/index.html)
+Copyright &copy; 2021 Designed, developed &amp; propulsed by [beyondframes.](https://beyondframes.fr/theme/index.html)
