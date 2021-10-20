@@ -1,4 +1,4 @@
-# beyond frames - We create what matters.
+# beyond frames. - We create what matters.
 beyond frames. was born from the desire to offer communication quality services, to support entrepreneurs and SMEs wishing to develop their digital strategy. Our purpose is to support organizations in establishing strong & creative communication.
 
 ## Create content that enhances your digital actions !
