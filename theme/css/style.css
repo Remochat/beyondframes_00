@@ -605,13 +605,13 @@ b i:last-child {
 .layers01 {  /**width = 500**/
   position:absolute;
   right: -200px;
-  top: -200px;
+  top: -190px;
 }
 
-.layers02 {  /**width = 1200**/
+.layers02 {  /**width = 1180**/
   position:absolute;
-  left: -720px;
-  top: 170px;
+  left: -700px;
+  top: 200px;
 }
 
 .layers03 {  /**width=5000**/
@@ -1012,7 +1012,7 @@ b i:last-child {
   font-size: 22vw;
   /**flex: nowrap;**/
   /**white-space: nowrap;**/
-  color: #F5B700;
+  color: #555;
   text-align: center;
 }
 
@@ -1049,7 +1049,7 @@ footer {
 }
 
 .copyright a:hover {
-  color: #ffbf00;
+  color: #a5a4a2;
 }
 
 footer img {
@@ -1104,7 +1104,7 @@ footer img {
   color: #333;
   font-family: "Graphit-Regular", "Poppins";
   padding: 150px 0 150px;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(/home/geraldine/Documents/Directory/beyondframes_00/theme/images/01-uncorrect.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(/home/geraldine/Documents/Directory/beyondframes_00/theme/images/01-rousse.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -1267,7 +1267,7 @@ textarea:focus {
   height: 30px;
   width: 30px;
   display: inline-block;
-  background: #555;  /** POSSIBILITE DE MODIFIER EN FFBB**/
+  background: #ffbf00;  /** POSSIBILITE DE MODIFIER EN FFBB00 ou f5b700**/
   text-align: center;
   line-height: 33px;
   margin-right: 10px;
