@@ -606,6 +606,12 @@ b i:last-child {
 
 .layers02 {
   position:absolute;
+  left: -720px;
+  top: 170px;
+}
+
+.layers03 {
+  position:absolute;
   left: -2%;
   top: 200px;
 }
@@ -1043,7 +1049,7 @@ footer img {
   color: #333;
   font-family: "Graphit-Regular", "Poppins";
   padding: 150px 0 150px;
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(/home/geraldine/Documents/Directory/beyondframes-site/resources/_gen/images/christin-hume-Hcfwew744z4-unsplash.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(/home/geraldine/Documents/Directory/beyondframes_00/theme/images/01-uncorrect.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
