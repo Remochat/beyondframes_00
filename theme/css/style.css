@@ -363,13 +363,14 @@ h6 {
 
 .parent-box-logo {
   display: block;
+  z-index: 2;
 }
 
 .box-logo {
   display: block;
   padding-left: 20px;
   z-index: 2;
-  width: 100%;
+  /**width: 100%;**/
 }
 
 .box-primary-nav-trigger {
