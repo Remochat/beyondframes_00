@@ -2,7 +2,7 @@
 beyond frames. was born from the desire to offer communication quality services, to support entrepreneurs and SMEs wishing to develop their digital strategy. Our purpose is to support organizations in establishing strong & creative communication.
 
 ## Create content that enhances your digital actions !
-👉🏻[View Our projects](file:///home/geraldine/Documents/Directory/beyondframes_00/theme/portfolio.html/)
+👉🏻[View Our projects](file:///home/geraldine/Documents/Directory/beyondframes_00/portfolio.html)
 ### Our services
 * **Communication strategy**
 * **Brand identity**
@@ -12,4 +12,4 @@ beyond frames. was born from the desire to offer communication quality services,
 * **SEO & SEA**
 
 #### License
-Copyright &copy; 2021 Designed, developed &amp; propulsed by [beyondframes.](https://beyondframes.fr/theme/index.html)
+Copyright &copy; 2021 Designed, developed &amp; propulsed by [beyondframes.](https://beyondframes.fr)

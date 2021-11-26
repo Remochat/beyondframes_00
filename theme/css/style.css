@@ -575,6 +575,7 @@ h6 {
   font-size: 18px;
 }
 
+
 /* box-intro
 ==================================================*/
 .box-intro {
@@ -608,43 +609,26 @@ b i:last-child {
   text-align: center;
 }
 
-/* layers */
+/* layers */                          /**formes geométriques en neumorphism**/
 .layers01 {  /**width = 500**/
   position:absolute;
   right: -200px;
   top: -190px;
+  z-index:-1;
 }
 
 .layers02 {  /**width = 1180**/
   position:absolute;
   left: -700px;
   top: 200px;
+  z-index:-1;
 }
 
-.layers03 {  /**width=5000**/
+.layers03 {  /**width=5000**/         /**hidden for now**/     
   position:absolute;
   left: -2%;
   top: 200px;
 }
-/**
-@media only screen and (max-width: 991px){
-  .layers01{
-    max-width: 250px;
-  }  
-  .layers02 {
-    max-width: 600px;
-  }  
-}
-
-@media only screen and (max-width: 361px) {
-  .layers01{
-    max-width: 100px;
-  }  
-  .layers02 {
-    max-width: 240px;
-}
-**/
-
 
 /* mouse effect */
 .mouse {
@@ -1023,19 +1007,6 @@ b i:last-child {
   text-align: center;
 }
 
-@media only screen and (max-width: 991px){
-  .talk {
-    
-  }  
-}
-
-@media only screen and (max-width: 360px) {
-  /**footer {
-    visibility: hidden;
-  }**/
-}
-
-
 /* FOOTER
 ==================================================*/
 footer {
@@ -1330,11 +1301,20 @@ textarea:focus {
 /* Responsive media queries
 ==================================================*/
 @media (max-width: 991px) {
+  .box-logo {
+  width: 80%;
+  }
   .box-headline {
     font-size: 100px;
   }
   .box-intro h5 {
     font-size: 16px;
+  }
+  .layers01{
+    max-width: 20wv;
+  }  
+  .layers02 {
+    max-width: 20wv;
   }
   .portfolio .categories-grid span {
     margin-bottom: 0;
@@ -1352,7 +1332,11 @@ textarea:focus {
   }
 }
 
+
 @media only screen and (max-width: 670px) {
+  .box-logo {
+  width: 60%;
+  }
   .box-intro h5 {
     font-size: 12px;
   }
@@ -1376,6 +1360,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 520px) {
+  .box-logo {
+    width: 50%;
+    }
   .box-headline {
     font-size: 80px;
   }
@@ -1384,6 +1371,12 @@ textarea:focus {
   }
   .main-container {
     padding: 50px 0;
+  }
+  .layers01{
+    max-width: 100px;
+  }  
+  .layers02 {
+    max-width: 240px;
   }
 }
 
@@ -1398,6 +1391,9 @@ textarea:focus {
     font-size: 30px;
     line-height: 30px;
   }
+  /**footer {
+    visibility: hidden;
+  }**/
 }
 
 /*# sourceMappingURL=style.css.map */
