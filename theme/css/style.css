@@ -632,12 +632,12 @@ b i:last-child {
 
 .layers01 img {
   width: 500px;
-  z-index:-1;
+  z-index:-2;
 }
 
 .layers02 img {
   width: 1180px;
-  z-index:-1;
+  z-index:-2;
 }
 
 /**.layers03 {  /**width=5000**/       /**
@@ -1322,12 +1322,19 @@ textarea:focus {
   right: 30px;
   }
 
-  .layers01 {  
+  .layers01 img {  
     visibility:hidden;
   }
-  .layers02 {  
+  .layers02 img {  
     visibility:hidden;
   }
+  .layers02 {
+    visibility:hidden;
+  }
+  .layers02 {
+    visibility:hidden;
+  }
+
 /**
   .layers01 {  
     position:relative;
