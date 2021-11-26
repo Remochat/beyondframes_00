@@ -616,11 +616,6 @@ b i:last-child {
 }
 
 /* layers */                          /**formes geométriques en neumorphism**/
-.parent-layers {
-  display: block;
-  z-index: 1;
-}
-
 .layers01 {  /**width = 500**/
   position:absolute;
   right: -200px;
@@ -633,6 +628,14 @@ b i:last-child {
   left: -700px;
   top: 200px;
   z-index:-1;
+}
+
+.layers01 img {
+  width: 500px;
+}
+
+.layers02 img {
+  width: 1180px;
 }
 
 /**.layers03 {  /**width=5000**/       /**
@@ -1311,33 +1314,23 @@ textarea:focus {
 
 /* Responsive media queries
 ==================================================*/
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   .box-logo {
   position: relative;
   right: 30px;
-  width: 20%;
-  height: auto;
   }
-
+  /**.layers01 img {
+    width: 60vw;
+  }
+  .layers02 img {
+    width: 60vw;
+  }**/
   .box-headline {
     font-size: 100px;
   }
   .box-intro h5 {
     font-size: 16px;
   }
- 
-  .parent-layers {
-    visibility : hidden;
-  }
-  /**.layers01{
-    /**width: 10px;
-	  height: auto;
-    visibility: hidden;
-  } /** 
-  .layers02 {
-    max-width: 20%;
-    /**visibility: hidden;
-  }**/
   .portfolio .categories-grid span {
     margin-bottom: 0;
     text-align: center;
@@ -1388,12 +1381,6 @@ textarea:focus {
   .main-container {
     padding: 50px 0;
   }
-  /**.layers01{
-    max-width: 100px;
-  }  
-  .layers02 {
-    max-width: 240px;
-  }**/
 }
 
 @media only screen and (max-width: 420px) {
