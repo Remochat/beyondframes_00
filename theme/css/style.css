@@ -361,9 +361,14 @@ h6 {
   background-color: rgba(255, 255, 255, 0.96);
 }
 
+.parent-box-logo {
+  width: 100%;
+}
+
 .box-logo {
   display: block;
   padding-left: 20px;
+  z-index: 2;
 }
 
 .box-primary-nav-trigger {
@@ -1302,7 +1307,10 @@ textarea:focus {
 ==================================================*/
 @media (max-width: 991px) {
   .box-logo {
-  visibility: hidden;
+  position: relative;
+  right: 30px;
+  width: 20%;
+  height: auto;
   }
   .box-headline {
     font-size: 100px;
