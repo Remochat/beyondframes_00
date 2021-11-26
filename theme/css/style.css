@@ -632,10 +632,12 @@ b i:last-child {
 
 .layers01 img {
   width: 500px;
+  z-index:-1;
 }
 
 .layers02 img {
   width: 1180px;
+  z-index:-1;
 }
 
 /**.layers03 {  /**width=5000**/       /**
@@ -1319,12 +1321,31 @@ textarea:focus {
   position: relative;
   right: 30px;
   }
-  /**.layers01 img {
+
+  .layers01 {  
+    visibility:hidden;
+  }
+  .layers02 {  
+    visibility:hidden;
+  }
+/**
+  .layers01 {  
+    position:relative;
+    right: 100px;
+    top: -100px;
+  }
+  .layers02 {  
+    position:relative;
+    left: -500px;
+    top: 00px;
+  }
+  .layers01 img {
     width: 60vw;
   }
   .layers02 img {
-    width: 60vw;
-  }**/
+    width: 100vw;
+  }
+**/
   .box-headline {
     font-size: 100px;
   }
