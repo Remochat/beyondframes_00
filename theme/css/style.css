@@ -616,6 +616,11 @@ b i:last-child {
 }
 
 /* layers */                          /**formes geométriques en neumorphism**/
+.parent-layers {
+  display: block;
+  z-index: 1;
+}
+
 .layers01 {  /**width = 500**/
   position:absolute;
   right: -200px;
@@ -1313,11 +1318,16 @@ textarea:focus {
   width: 20%;
   height: auto;
   }
+
   .box-headline {
     font-size: 100px;
   }
   .box-intro h5 {
     font-size: 16px;
+  }
+ 
+  .parent-layers {
+    visibility : hidden;
   }
   /**.layers01{
     /**width: 10px;
@@ -1325,8 +1335,8 @@ textarea:focus {
     visibility: hidden;
   } /** 
   .layers02 {
-    /**max-width: 20wv;
-    visibility: hidden;
+    max-width: 20%;
+    /**visibility: hidden;
   }**/
   .portfolio .categories-grid span {
     margin-bottom: 0;
