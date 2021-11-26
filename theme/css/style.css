@@ -624,11 +624,11 @@ b i:last-child {
   z-index:-1;
 }
 
-.layers03 {  /**width=5000**/         /**hidden for now**/     
+/**.layers03 {  /**width=5000**/       /**
   position:absolute;
   left: -2%;
   top: 200px;
-}
+}**/
 
 /* mouse effect */
 .mouse {
@@ -1302,7 +1302,7 @@ textarea:focus {
 ==================================================*/
 @media (max-width: 991px) {
   .box-logo {
-  width: 80%;
+  visibility: hidden;
   }
   .box-headline {
     font-size: 100px;
@@ -1310,12 +1310,15 @@ textarea:focus {
   .box-intro h5 {
     font-size: 16px;
   }
-  .layers01{
-    width: 20%;
-  }  
+  /**.layers01{
+    /**width: 10px;
+	  height: auto;
+    visibility: hidden;
+  } /** 
   .layers02 {
-    max-width: 20wv;
-  }
+    /**max-width: 20wv;
+    visibility: hidden;
+  }**/
   .portfolio .categories-grid span {
     margin-bottom: 0;
     text-align: center;
@@ -1331,12 +1334,9 @@ textarea:focus {
     margin-top: 30px;
   }
 }
-
+  
 
 @media only screen and (max-width: 670px) {
-  .box-logo {
-  width: 60%;
-  }
   .box-intro h5 {
     font-size: 12px;
   }
@@ -1360,9 +1360,6 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 520px) {
-  .box-logo {
-    width: 50%;
-    }
   .box-headline {
     font-size: 80px;
   }
@@ -1372,12 +1369,12 @@ textarea:focus {
   .main-container {
     padding: 50px 0;
   }
-  .layers01{
+  /**.layers01{
     max-width: 100px;
   }  
   .layers02 {
     max-width: 240px;
-  }
+  }**/
 }
 
 @media only screen and (max-width: 420px) {
