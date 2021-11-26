@@ -1311,7 +1311,7 @@ textarea:focus {
     font-size: 16px;
   }
   .layers01{
-    max-width: 20wv;
+    width: 20%;
   }  
   .layers02 {
     max-width: 20wv;
