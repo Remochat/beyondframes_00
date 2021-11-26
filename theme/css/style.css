@@ -362,13 +362,14 @@ h6 {
 }
 
 .parent-box-logo {
-  width: 100%;
+  display: block;
 }
 
 .box-logo {
   display: block;
   padding-left: 20px;
   z-index: 2;
+  width: 100%;
 }
 
 .box-primary-nav-trigger {
