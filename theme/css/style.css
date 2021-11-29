@@ -1114,6 +1114,11 @@ footer img {
   line-height: 50px;
 }
 
+.top-bar h2 {
+  font-family: "Graphit-Regular", "Poppins";
+  margin-top: 1.2rem;
+}
+
 .top-bar p {
   font-size: 15px;
   text-transform: uppercase;
