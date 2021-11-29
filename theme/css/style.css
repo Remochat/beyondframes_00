@@ -1291,10 +1291,26 @@ textarea:focus {
   font-weight: 500;
 }
 
+.btn h2{
+  margin-top: .1rem;
+  color: #60606e;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.btn.active h2{
+  margin-top: .17rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 .btn-box:hover,
 .btn-box:focus {
   background: #F5B700;
-  color: #fff;
+  color: #fff; 
 }
 
 /* single project page
