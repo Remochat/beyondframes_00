@@ -1294,7 +1294,7 @@ textarea:focus {
 .btn h2{
   margin-top: .1rem;
   color: #60606e;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -1303,8 +1303,6 @@ textarea:focus {
   margin-top: .17rem;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
 }
 
 .btn-box:hover,
