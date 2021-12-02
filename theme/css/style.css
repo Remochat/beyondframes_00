@@ -617,35 +617,15 @@ b i:last-child {
 }
 
 /* layers */                          /**formes geométriques en neumorphism**/
-.layers01 {  /**width = 500**/
-  position:absolute;
-  right: -200px;
-  top: -190px;
-  z-index:-1;
-}
 
-.layers02 {  /**width = 1180**/
-  position:absolute;
-  left: -700px;
-  top: 200px;
-  z-index:-1;
-}
 
-.layers01 img {
-  width: 500px;
-  z-index:-2;
-}
 
-.layers02 img {
-  width: 1180px;
-  z-index:-2;
-}
 
-/**.layers03 {  /**width=5000**/       /**
-  position:absolute;
-  left: -2%;
-  top: 200px;
-}**/
+
+
+
+
+
 
 /* mouse effect */
 .mouse {
@@ -1323,6 +1303,7 @@ textarea:focus {
   color: #ffbf00;
 }
 
+
 /* google-map
 ==================================================*/
 .google-map {
@@ -1340,38 +1321,22 @@ textarea:focus {
   .box-logo {
   position: relative;
   right: 30px;
+  
   }
 
-  .layers01 img {  
-    visibility:hidden;
-  }
-  .layers02 img {  
-    visibility:hidden;
-  }
-  .layers02 {
-    visibility:hidden;
-  }
-  .layers02 {
-    visibility:hidden;
-  }
 
-/**
-  .layers01 {  
-    position:relative;
-    right: 100px;
-    top: -100px;
-  }
-  .layers02 {  
-    position:relative;
-    left: -500px;
-    top: 00px;
-  }
-  .layers01 img {
-    width: 60vw;
-  }
-  .layers02 img {
-    width: 100vw;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
 **/
   .box-headline {
     font-size: 100px;
