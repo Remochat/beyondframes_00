@@ -620,6 +620,8 @@ b i:last-child {
 
 .parent-layer {
   position: relative;
+  height: 100vh; /** ligne optionnelle ? **/
+  width: 100%;   /** ligne optionelle ? **/
   z-index: -2;
 }
 
@@ -633,7 +635,7 @@ b i:last-child {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  background-size: 28vw; /**hauteur est alors fixée à auto**/
+  background-size: 500px; /**hauteur est alors fixée à auto**/
   background-attachment: contain;  
   z-index: -1;
 }
@@ -648,7 +650,7 @@ b i:last-child {
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  background-size: 62vw; /**hauteur est alors fixée à auto**/
+  background-size: 1080px; /**hauteur est alors fixée à auto**/
   background-attachment: contain;
   z-index: -1;
 }
