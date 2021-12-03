@@ -627,30 +627,30 @@ b i:last-child {
 
 .layer01 {
   position: absolute;
-  height: 1016px;
-  width: 500px;
+  width: 600px;
+  height: 1500px;
   top: -220px;
-  right: -12em;
+  right: -13.5em;
   background-image: url(../images/rectangle.png); 
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top right;
   overflow: hidden;
-  background-size: 500px; /**hauteur est alors fixée à auto**/
-  background-attachment: contain;  
+  background-size: 560px; /**hauteur est alors fixée à auto**/
+  background-attachment: contain;  /**always show the whole image**/
   z-index: -1;
 }
 
 .layer02 {
   position: absolute;
-  height: 1180px;
-  width: 1080px;
-  right: 1400px;
-  top: 145px;
+  width: 1180px;
+  height: 1080px;
+  right: 1500px;
+  top: 280px;
   background-image: url(../images/polygone-biais-large.png);
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
-  background-size: 1080px; /**hauteur est alors fixée à auto**/
+  background-size: 1300px; /**hauteur est alors fixée à auto**/
   background-attachment: contain;
   z-index: -1;
 }
