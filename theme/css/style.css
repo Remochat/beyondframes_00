@@ -618,14 +618,40 @@ b i:last-child {
 
 /* layers */                          /**formes geométriques en neumorphism**/
 
+.parent-layer {
+  position: relative;
+  z-index: -2;
+}
 
+.layer01 {
+  position: absolute;
+  height: 1016px;
+  width: 500px;
+  top: -220px;
+  right: -12em;
+  background-image: url(../images/rectangle.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-size: 28vw; /**hauteur est alors fixée à auto**/
+  background-attachment: contain;  
+  z-index: -1;
+}
 
-
-
-
-
-
-
+.layer02 {
+  position: absolute;
+  height: 1180px;
+  width: 1080px;
+  right: 1400px;
+  top: 145px;
+  background-image: url(../images/polygone-biais-large.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  background-size: 62vw; /**hauteur est alors fixée à auto**/
+  background-attachment: contain;
+  z-index: -1;
+}
 
 /* mouse effect */
 .mouse {
@@ -1317,27 +1343,52 @@ textarea:focus {
 
 /* Responsive media queries
 ==================================================*/
-@media only screen and (max-width: 991px) {
+
+/**@media screen and (max-device-width: 1801px) and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
+
+@media screen and (min-device-width: 1201px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
+**/
+
+
+
+/**
+@media all and (min-width: 1300px) and (max-width: 1699px) {
+.layer01 {
+  top: -300px;
+  right: -10em;
+  background-size: 50vw auto;
+  }
+  .layer02 {
+  top: 500px;
+  right: 500px;
+  background-position: center;
+  background-size: 120vw auto;
+  }
+}
+**/
+
+/**@media only screen and (min-device-width: 991px) and (max-device-width: 1200px) {
+  .layer01 {
+    top: -300px;
+    right: -10em;
+    background-size: 50vw auto;
+    }
+  .layer02 {
+    top: 500px;
+    right: 500px;
+    background-position: center;
+    background-size: 120vw auto;
+    }
+**/
+@media only screen and (min-device-width: 671px) and (max-width: 990px) {
   .box-logo {
   position: relative;
   right: 30px;
-  
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**/
   .box-headline {
     font-size: 100px;
   }
@@ -1359,9 +1410,8 @@ textarea:focus {
     margin-top: 30px;
   }
 }
-  
 
-@media only screen and (max-width: 670px) {
+@media only screen and (min-device-width: 521px) and (max-device-width: 670px) {
   .box-intro h5 {
     font-size: 12px;
   }
@@ -1384,7 +1434,7 @@ textarea:focus {
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (min-device-width: 421px) and (max-device-width: 520px) {
   .box-headline {
     font-size: 80px;
   }
@@ -1412,4 +1462,4 @@ textarea:focus {
   }**/
 }
 
-/*# sourceMappingURL=style.css.map */
+/**# sourceMappingURL=style.css.map **/
