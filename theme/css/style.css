@@ -620,9 +620,9 @@ b i:last-child {
 
 .parent-layer {
   position: relative;
-  height: 100vh; /** ligne optionnelle ? **/
+  height: 100%; /** ligne optionnelle ? **/
   width: 100%;   /** ligne optionelle ? **/
-  z-index: -2;
+  z-index: -5;
 }
 
 .layer01 {
