@@ -1346,47 +1346,16 @@ textarea:focus {
 /* Responsive media queries
 ==================================================*/
 
-/**@media screen and (max-device-width: 1801px) and (-webkit-min-device-pixel-ratio: 1) { 
-
-}
-
-@media screen and (min-device-width: 1201px) and (max-device-width: 1800px) and (-webkit-min-device-pixel-ratio: 1) { 
-
-}
-**/
-
-
-
-/**
-@media all and (min-width: 1300px) and (max-width: 1699px) {
-.layer01 {
-  top: -300px;
-  right: -10em;
-  background-size: 50vw auto;
-  }
-  .layer02 {
-  top: 500px;
-  right: 500px;
-  background-position: center;
-  background-size: 120vw auto;
-  }
-}
-**/
-
-/**@media only screen and (min-device-width: 991px) and (max-device-width: 1200px) {
+@media (max-width: 991px) {
   .layer01 {
-    top: -300px;
-    right: -10em;
-    background-size: 50vw auto;
-    }
+    visibility: hidden;
+  }
   .layer02 {
-    top: 500px;
-    right: 500px;
-    background-position: center;
-    background-size: 120vw auto;
-    }
-**/
-@media only screen and (min-device-width: 671px) and (max-width: 990px) {
+    visibility: hidden;
+  }
+  .parent-layer {
+    visibility: hidden;
+  }
   .box-logo {
   position: relative;
   right: 30px;
@@ -1413,7 +1382,7 @@ textarea:focus {
   }
 }
 
-@media only screen and (min-device-width: 521px) and (max-device-width: 670px) {
+@media only screen and (max-width: 670px) {
   .box-intro h5 {
     font-size: 12px;
   }
@@ -1436,7 +1405,7 @@ textarea:focus {
   }
 }
 
-@media only screen and (min-device-width: 421px) and (max-device-width: 520px) {
+@media only screen and (max-width: 520px) {
   .box-headline {
     font-size: 80px;
   }
