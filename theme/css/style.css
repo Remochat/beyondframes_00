@@ -638,7 +638,7 @@ b i:last-child {
   height: auto;
 }
 
-#subheading01 {
+#subheading01 { /**design& web**/
   position: absolute;
   top: 18%;
   left:57%;
@@ -647,16 +647,16 @@ b i:last-child {
   height: auto;
 }
 
-#subheading02 {
+#subheading02 { /**stars**/
   position: absolute;
-  top: 80%;
-  left:25%;
+  top: 87%;
+  left:32%;
   transform: translate(-50%, -50%);
   max-width: 100%;
   height: auto;
 }
 
-#subheading03 {
+#subheading03 { /**smiley**/
   position: absolute;
   top: 80%;
   left:70%;
@@ -665,7 +665,7 @@ b i:last-child {
   height: auto;
 }
 
-#subheading04 {
+#subheading04 { /**get in touch**/
   position: absolute;
   width: 20vw;
   top: 88%;
@@ -673,6 +673,24 @@ b i:last-child {
   transform: translate(-50%, -50%);
   max-width: 100%;
   height: auto;
+}
+
+.outline {
+  position: absolute;
+  top: 84%;
+  left:27%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  font-family: "Graphit";
+  font-weight: 500;
+  color: #111;
+  line-height: 2.4rem;
+  font-size: 2.6rem;
+  text-align: left;
+}
+
+.yellow {
+  **color: #ffbf00 !important;**/
 }
 
 .parent-layer {
