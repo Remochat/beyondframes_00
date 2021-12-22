@@ -620,7 +620,6 @@ b i:last-child {
 /* layers */                          /**formes geométriques en neumorphism**/
 
 .parent-layer {
-  position: relative;
   height: 100%; /** ligne optionnelle ? **/
   width: 100%;   /** ligne optionelle ? **/
   z-index: -5;
