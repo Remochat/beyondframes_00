@@ -583,8 +583,17 @@ h6 {
   font-size: 18px;
 }
 
+/* box-intro pour square logo
+==================================================*/
+.box-intro-logo {                                /**DECALAGE**/ 
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
 
-/* box-intro
+
+/* box-intro pour animation
 ==================================================*/
 .box-intro {                                /**DECALAGE**/ 
   text-align: center;
@@ -618,6 +627,53 @@ b i:last-child {
 }
 
 /* layers */                          /**formes geométriques en neumorphism**/
+==================================================*/
+
+#logo-square {
+  position: absolute;
+  top: 80%;
+  left:57%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+#subheading01 {
+  position: absolute;
+  top: 18%;
+  left:57%;
+  transform: translate(-50%, -50%); /**positionning with the center of the element not the top left corner**/
+  max-width: 100%;
+  height: auto;
+}
+
+#subheading02 {
+  position: absolute;
+  top: 80%;
+  left:25%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+#subheading03 {
+  position: absolute;
+  top: 80%;
+  left:70%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+#subheading04 {
+  position: absolute;
+  width: 20vw;
+  top: 88%;
+  left:78%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
 
 .parent-layer {
   height: 100%; /** ligne optionnelle ? **/
