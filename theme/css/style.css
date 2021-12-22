@@ -22,6 +22,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
 @font-face {
   font-family: 'Graphit-Regular';  
   src: url(../../source/font/Graphit_otf/Graphit-Regular.otf) format('opentype'),
@@ -693,6 +695,19 @@ b i:last-child {
 
 .yellow {
   **color: #ffbf00 !important;**/
+}
+
+.chat {
+  color: black;
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 2.2rem;
+  letter-spacing: .1rem;
+}
+
+.chat p {
+  position: absolute;
+  left: 72%;
+  top: 84%;
 }
 
 .parent-layer {
