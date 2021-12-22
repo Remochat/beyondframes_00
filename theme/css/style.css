@@ -18,7 +18,9 @@
 ==================================================*/
 /* Google fonts & font family
 ==================================================*/
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 @font-face {
   font-family: 'Graphit-Regular';  
