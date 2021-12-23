@@ -200,30 +200,34 @@ h1 {
   color: #393939;
   font-size: 60px;
   text-transform: uppercase;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h2 {
   color: #393939;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h3 {
   color: #393939;
   font-size: 1.75rem;
-  font-family: "Graphit", "Poppins";
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h4 {
   color: #999999;
   font-size: 1rem;
-  font-family: "Graphit-Medium";
+  font-family: "Graphit-Medium", "Poppins", Helvetica, sans-serif;
 }
 
 h5 {
   color: #ffbf00;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h6 {
   color: #ffbf00;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 .em-thin {
@@ -724,7 +728,6 @@ b i:last-child {
     text-decoration: none;
     color:inherit;
   }
-
 
 /* underline effect */
 @keyframes underlined-smart {
