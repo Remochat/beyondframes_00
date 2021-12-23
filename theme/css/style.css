@@ -628,15 +628,15 @@ b i:last-child {
 ==================================================*/
 
 #logo-square {
-  position: absolute;
-  top: 80%;
-  left:57%;
+  position: relative;
+  top:50%;
+  left:50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
   height: auto;
 }
 
-#subheading01 { /**design& web**/
+#subheading01 { /**design & web**/
   position: absolute;
   top: 18%;
   left:57%;
@@ -699,7 +699,7 @@ b i:last-child {
 
 .underline-hover-effect {
   display:inline-block;
-  /*padding-bottom: 0rem; define space between text and line*/
+  /**padding-bottom: 0rem; define space between text and line**/
   position: relative;
   }
 
@@ -712,7 +712,6 @@ b i:last-child {
   height: 3px;
   background-color: #111;
   transition: width .25s ease-out;
-  
   }
 
   .underline-hover-effect:hover::before {
