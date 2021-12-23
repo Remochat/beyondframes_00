@@ -1167,7 +1167,7 @@ b i:last-child {
 /* FOOTER
 ==================================================*/
 footer {
-  padding: 30px 50px;
+  padding: 30px 0 50px 0;
   font-size: 15px;
   text-align: center;
   background: #f5f5f5;
