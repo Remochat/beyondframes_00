@@ -101,13 +101,16 @@
 
 /* General
 ==================================================*/
-html,
-body {
+html, body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
   line-height: 1.8;
   color: #999;
   overflow-x: hidden;
+/*try to debug*/
+  /**width: 100%;                    pose probleme avec alignement text contact**/
+  margin: 0px;
+  padding: 0px;
 }
 
 html { 
@@ -1591,5 +1594,23 @@ textarea:focus {
     visibility: hidden;
   }**/
 }
+
+/* try to debug *//*
+.element-invisible {
+  width: 1px;
+  }
+  
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus {
+  width: auto;
+  }
+*/
+
+/* debug css
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
 
 /*# sourceMappingURL=style.css.map */
