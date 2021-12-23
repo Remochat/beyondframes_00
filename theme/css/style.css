@@ -630,7 +630,7 @@ b i:last-child {
   /**text-align: center;**/
 }
 
-/* layers */                          /**formes geométriques en neumorphism**/
+/* layers */                          /**formes geométriques en neumorphism
 ==================================================*/
 
 #logo-square {
@@ -693,10 +693,6 @@ b i:last-child {
   text-align: left;
 }
 
-.yellow {
-  **color: #ffbf00 !important;**/
-}
-
 .chat {
   color: black;
   font-family: 'Sedgwick Ave', cursive;
@@ -709,7 +705,7 @@ b i:last-child {
 
 .underline-hover-effect {
   display:inline-block;
-  padding-bottom: 0rem; /*define space between text and line*/
+  /*padding-bottom: 0rem; define space between text and line*/
   position: relative;
   }
 
@@ -719,9 +715,10 @@ b i:last-child {
   right:0;
   bottom:0;
   width:0;
-  height: 4px;
+  height: 3px;
   background-color: #111;
   transition: width .25s ease-out;
+  
   }
 
   .underline-hover-effect:hover::before {
@@ -1427,6 +1424,12 @@ textarea:focus {
   margin-right: 20px;
 }
 
+.contact-info a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .btn-box {
   background: #ffbf00;
   padding: 10px 50px;
@@ -1494,11 +1497,8 @@ textarea:focus {
   .parent-layer {
     visibility: hidden;
   }
-<<<<<<< HEAD
-  .box-logo {
-=======
 }
-**/
+
 
 /**@media only screen and (min-device-width: 991px) and (max-device-width: 1200px) {
   .layer01 {
@@ -1515,12 +1515,11 @@ textarea:focus {
 **//**
 @media only screen and (min-device-width: 671px) and (max-width: 990px) {**/
   /**.box-logo {
->>>>>>> parent-box-logo-topic
   position: relative;
   right: 30px;
   }**/
 
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
   .box-headline {
     font-size: 100px;
   }
@@ -1543,13 +1542,9 @@ textarea:focus {
   }
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 670px) {
-=======
 /**
 @media only screen and (min-device-width: 521px) and (max-device-width: 670px) {**/
   @media only screen and (max-width: 670px) {
->>>>>>> parent-box-logo-topic
   .box-intro h5 {
     font-size: 12px;
   }
@@ -1572,12 +1567,8 @@ textarea:focus {
   }
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 520px) {
-=======
 /**@media only screen and (min-device-width: 421px) and (max-device-width: 520px) {**/
   @media only screen and (max-width: 520px) {
->>>>>>> parent-box-logo-topic
   .box-headline {
     font-size: 80px;
   }
