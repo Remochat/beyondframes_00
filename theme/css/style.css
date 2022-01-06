@@ -101,13 +101,16 @@
 
 /* General
 ==================================================*/
-html,
-body {
+html, body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
   line-height: 1.8;
   color: #999;
   overflow-x: hidden;
+/*try to debug*/
+  /**width: 100%;                    pose probleme avec alignement text contact**/
+  margin: 0px;
+  padding: 0px;
 }
 
 html { 
@@ -200,30 +203,34 @@ h1 {
   color: #393939;
   font-size: 60px;
   text-transform: uppercase;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h2 {
   color: #393939;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h3 {
   color: #393939;
   font-size: 1.75rem;
-  font-family: "Graphit", "Poppins";
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h4 {
   color: #999999;
   font-size: 1rem;
-  font-family: "Graphit-Medium";
+  font-family: "Graphit-Medium", "Poppins", Helvetica, sans-serif;
 }
 
 h5 {
   color: #ffbf00;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 h6 {
   color: #ffbf00;
+  font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
 .em-thin {
@@ -364,12 +371,6 @@ h6 {
 .box-header.menu-is-open {
   background-color: rgba(255, 255, 255, 0.96);
 }
-
-/**.parent-box-logo {
-  display: block;
-  z-index: 2;
-}**/
-
 
 .box-logo {
   display: block;
@@ -630,19 +631,19 @@ b i:last-child {
   /**text-align: center;**/
 }
 
-/* layers */                          /**formes geométriques en neumorphism**/
+/* layers */                          /**formes geométriques en neumorphism
 ==================================================*/
 
 #logo-square {
-  position: absolute;
-  top: 80%;
-  left:57%;
+  position: relative;
+  top:50%;
+  left:50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
   height: auto;
 }
 
-#subheading01 { /**design& web**/
+#subheading01 { /**design & web**/
   position: absolute;
   top: 18%;
   left:57%;
@@ -681,33 +682,76 @@ b i:last-child {
 
 .outline {
   position: absolute;
-  top: 84%;
+  top: 83%;
   left:27%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
   font-family: "Graphit";
   font-weight: 500;
   color: #111;
-  line-height: 2.4rem;
+  line-height: 2.6rem;
   font-size: 2.6rem;
   text-align: left;
-}
-
-.yellow {
-  **color: #ffbf00 !important;**/
 }
 
 .chat {
   color: black;
   font-family: 'Sedgwick Ave', cursive;
   font-size: 2.2rem;
-  letter-spacing: .1rem;
+  letter-spacing: .05rem;
+  position:relative;
+  left: 26.5%;
+  top: -11%;
 }
 
-.chat p {
+.underline-hover-effect {
+  display:inline-block;
+  /**padding-bottom: 0rem; define space between text and line**/
+  position: relative;
+  }
+
+.underline-hover-effect::before {
+  content: "";
   position: absolute;
-  left: 72%;
-  top: 84%;
+  right:0;
+  bottom:0;
+  width:0;
+  height: 3px;
+  background-color: #111;
+  transition: width .25s ease-out;
+  }
+
+  .underline-hover-effect:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+
+  a.underline-hover-effect {
+    text-decoration: none;
+    color:inherit;
+  }
+
+/* underline effect */
+@keyframes underlined-smart {
+  from {
+      background-size: 0% 100%;
+      background-position: bottom left;
+  }
+  100%{
+      background-size: 100% 100%;
+      background-position: bottom left;
+}
+}
+@keyframes underlined-smart-effect {
+  from {
+      background-size: 100% 100%;
+      background-position: bottom right;
+  }
+  100%{
+      background-size: 0 100%;
+      background-position: bottom right;
+  }
 }
 
 .parent-layer {
@@ -1126,7 +1170,7 @@ b i:last-child {
 /* FOOTER
 ==================================================*/
 footer {
-  padding: 30px 50px;
+  padding: 30px 0 50px 0;
   font-size: 15px;
   text-align: center;
   background: #f5f5f5;
@@ -1379,6 +1423,12 @@ textarea:focus {
   margin-right: 20px;
 }
 
+.contact-info a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
 .btn-box {
   background: #ffbf00;
   padding: 10px 50px;
@@ -1446,11 +1496,8 @@ textarea:focus {
   .parent-layer {
     visibility: hidden;
   }
-<<<<<<< HEAD
-  .box-logo {
-=======
 }
-**/
+
 
 /**@media only screen and (min-device-width: 991px) and (max-device-width: 1200px) {
   .layer01 {
@@ -1467,12 +1514,11 @@ textarea:focus {
 **//**
 @media only screen and (min-device-width: 671px) and (max-width: 990px) {**/
   /**.box-logo {
->>>>>>> parent-box-logo-topic
   position: relative;
   right: 30px;
   }**/
 
-  @media (max-width: 991px) {
+  @media only screen and (max-width: 991px) {
   .box-headline {
     font-size: 100px;
   }
@@ -1495,13 +1541,9 @@ textarea:focus {
   }
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 670px) {
-=======
 /**
 @media only screen and (min-device-width: 521px) and (max-device-width: 670px) {**/
   @media only screen and (max-width: 670px) {
->>>>>>> parent-box-logo-topic
   .box-intro h5 {
     font-size: 12px;
   }
@@ -1524,12 +1566,8 @@ textarea:focus {
   }
 }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 520px) {
-=======
 /**@media only screen and (min-device-width: 421px) and (max-device-width: 520px) {**/
   @media only screen and (max-width: 520px) {
->>>>>>> parent-box-logo-topic
   .box-headline {
     font-size: 80px;
   }
@@ -1556,5 +1594,23 @@ textarea:focus {
     visibility: hidden;
   }**/
 }
+
+/* try to debug *//*
+.element-invisible {
+  width: 1px;
+  }
+  
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus {
+  width: auto;
+  }
+*/
+
+/* debug css
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
 
 /*# sourceMappingURL=style.css.map */
