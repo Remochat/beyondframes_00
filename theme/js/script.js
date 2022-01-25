@@ -58,17 +58,15 @@ $(window).on('load', function () {
 
 });
 
-//
-
     //colored animation//
-   
+    // Created by Dan Arbello: https://codepen.io/danarbello//
 
-    //var c = document.getElementById("gradient");
-    var $ = c.getContext("2d");
+    var c = document.getElementById("gradient");
+    var dd = c.getContext("2d");
 
     var col = function (x, y, r, g, b) {
-      $.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
-      $.fillRect(x, y, 1, 1);
+      dd.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
+      dd.fillRect(x, y, 1, 1);
     };
     var R = function (x, y, t) {
       return Math.floor(192 + 64 * Math.cos((x * x - y * y) / 300 + t));
@@ -107,5 +105,5 @@ $(window).on('load', function () {
     run();
 
 
-    //
+
 
