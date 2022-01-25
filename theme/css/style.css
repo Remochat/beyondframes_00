@@ -667,11 +667,12 @@ b i:last-child {
   max-height: 100%;
   overflow: hidden;
   margin:0 auto;
-  background-color: tomato;
+  /*background-color: tomato;*/
 }
 
 #logo-square {
   width: auto;
+  min-width: 65vw;
   height: 54vw;
   position:relative;
   bottom: 4vh;
@@ -691,23 +692,18 @@ b i:last-child {
 
 #contain-sub01 {
   position: absolute;
-  top: 16%;
+  top: 18%;
   left:57%;
-  width:auto;
-  max-height: 100%;
   /*background-color: #F5B700;*/
   transform: translate(-50%, -50%); /**positionning with the center of the element not the top left corner**/
 }
 
-#subheading01 { /**design & web**/
-  max-width: 300px;
-  height: auto;
-  object-fit: contain;
+#subheading01 img{ /**design & web**/
+  height: 5vw;
+  width:auto;
+  /*background-color: #959800;*/
 }
 
-#subheading01 img{
-  width: 300px;
-}
 
 @keyframes appearance {
   100%{
@@ -1483,8 +1479,12 @@ textarea:focus {
     display: flex;
     right: 70vw;
   }
-  
+  #contain-sub01 {
+      top: 12%;
+  }
+}
 
+  
   @media only screen and (max-width: 991px) {
   .box-intro h5 {
     font-size: 16px;
@@ -1515,19 +1515,22 @@ textarea:focus {
     max-height: 100%;
     overflow: hidden;
     margin:0 auto;
-    background-color: red;
+    /*background-color: red;*/
   }
     #logo-square {
-    height: 54vw;
-    width: 54vw;
-    position:relative;
-    left: 25vw;
-    bottom: 4vh;
-    display: flex;
-    justify-content: center;
-    opacity:0;
-    transform: translateY(20px);
-    animation: appearance 0.4s 0.8s ease-out forwards;
+    height: 65vw;
+    width: 65vw;
+    left: 20vw;
+    top:4vw;
+   }
+   #contain-sub01 {
+    top: 22%;
+    left:60%;
+    /*background-color: #F5B700;*/
+  }
+    #subheading01 img{ /**design & web**/
+    height: 7vw;
+    /*background-color: #959800;*/
   }
 }
 
@@ -1566,11 +1569,18 @@ textarea:focus {
     margin-right:4vw;
   }
   .contain-logo-square{
-    width:auto;
+    width:1000px;
     height: 100%;
+    max-height: 100%;
     overflow: hidden;
     margin:0 auto;
-    background-color: green;
+    /*background-color: green;*/
+  }
+    #logo-square {
+    height: 65vw;
+    width: 65vw;
+    left: 20vw;
+    top:8vw;
   }
 }
 
@@ -1585,13 +1595,34 @@ textarea:focus {
   .main-container {
     padding: 25px 0;
   }
+  .hero-section{
+    /*background-color: gold;*/
+    height: 40vh;
+    width: 100%;
+  }
   .contain-logo-square{
     width:1000px;
-    height: auto;
+    height: 100%;
     max-height: 100%;
     overflow: hidden;
     margin:0 auto;
-    background-color: pink;
+    /*background-color: pink;*/
+  }
+    #logo-square {
+    height: 65vw;
+    width: 65vw;
+    left: 20vw;
+    top:16vw;
+  }
+  .mouse{
+    visibility: hidden;
+  }
+  #contain-sub01 {
+    top: 12%;
+  }
+  .outline { /**we create what matters**/
+    left: 10vw;
+    bottom: 2vw;
   }
 }
 
@@ -1605,14 +1636,6 @@ textarea:focus {
   .top-bar h1 {
     font-size: 30px;
     line-height: 30px;
-  }
-  .contain-logo-square{
-    width:1000px;
-    height: auto;
-    max-height: 100%;
-    overflow: hidden;
-    margin:0 auto;
-    background-color: purple;
   }
   /**footer {
     visibility: hidden;
