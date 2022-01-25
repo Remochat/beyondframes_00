@@ -61,7 +61,7 @@ $(window).on('load', function () {
 //
 
     //colored animation//
-    // Created by Tiffany Rayside: https://codepen.io/tmrDevelops/pen/vOPZBv//
+   
 
     //var c = document.getElementById("gradient");
     var $ = c.getContext("2d");
