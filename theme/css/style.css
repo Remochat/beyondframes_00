@@ -639,18 +639,18 @@ b i:last-child {
   /**text-align: center;**/
 }
 
-/* layers */                          /**neumorphism
-==================================================*/
+
 
 #logo-square {
+  max-width: 100%;
+  height: auto;
   position:relative;
   bottom: 4vh;
   display: flex;
-  align-items: center;
   justify-content: center;
   opacity:0;
-  transform: translateY(30px);
-  animation: appearance 0.4s 1.6s ease-out forwards;
+  transform: translateY(20px);
+  animation: appearance 0.4s 1s ease-out forwards;
 }
 
 @keyframes appearance {
@@ -667,7 +667,18 @@ b i:last-child {
   transform: translate(-50%, -50%); /**positionning with the center of the element not the top left corner**/
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
+
+@keyframes appearance {
+  100%{
+    opacity:1;
+    transform: none; /*to simplify animation translate above */
+  }
+}
+
+/* hero section
+==================================================*/
 
 #subheading02 { /**stars**/
   position: absolute;
@@ -678,6 +689,7 @@ b i:last-child {
   height: auto;
 }
 
+
 #subheading03 { /**smiley**/
   position: absolute;
   top: 80%;
@@ -687,17 +699,17 @@ b i:last-child {
   height: auto;
 }
 
-#subheading04 { /**get in touch**/
-  position: absolute;
-  width: 20vw;
-  top: 88%;
-  left:78%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  height: auto;
+.chat {
+  color: black;
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 2.2rem;
+  letter-spacing: .05rem;
+  position:relative;
+  left: 70%;
+  bottom: 26vh;
 }
 
-.outline {
+.outline { /**we create what matters**/
   position: absolute;
   top: 83%;
   left:27%;
@@ -711,15 +723,6 @@ b i:last-child {
   text-align: left;
 }
 
-.chat {
-  color: black;
-  font-family: 'Sedgwick Ave', cursive;
-  font-size: 2.2rem;
-  letter-spacing: .05rem;
-  position:relative;
-  left: 26.5%;
-  top: -26%;
-}
 
 .underline-hover-effect {
   display:inline-block;
@@ -776,6 +779,9 @@ b i:last-child {
   width: 100%;   /** ligne optionelle ? **/
   z-index: -5;
 }
+
+/* layers */                          /**neumorphism
+==================================================*/
 
 .layer01 {
   position: absolute;
