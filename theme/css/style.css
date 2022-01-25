@@ -224,7 +224,7 @@ h4 {
 }
 
 h5 {
-  color: #ffbf00;
+  color: #ffbc3a;
   font-family: "Graphit", "Poppins", Helvetica, sans-serif;
 }
 
@@ -594,7 +594,7 @@ h6 {
 
 /* box-intro square logo
 ==================================================*/
-.box-intro-logo {                                /**DECALAGE**/ 
+.box-intro-logo {                          /**DECALAGE**/ 
   text-align: center;
   height: 100vh;
   width: 100%;
@@ -603,12 +603,13 @@ h6 {
 
 .hero-section {
  width: 100%;
+ height: 100vh;
 }
 
 
 /* box-intro rolling letter animation
 ==================================================*/
-.box-intro {                                /**DECALAGE**/ 
+.box-intro {                               /**DECALAGE**/ 
   text-align: center;
   display: table;
   height: 100vh;
@@ -729,7 +730,7 @@ b i:last-child {
   position:relative;
   width: 300px;
   left: 70%;
-  bottom: 46vh;
+  bottom: 38vh;
   /*background-color: #F5B700;*/
 }
 
@@ -745,7 +746,7 @@ b i:last-child {
   flex-direction:column;
   position:relative;
   left: 20vw;
-  top: -40vh;
+  top: -30vh;
   text-transform: uppercase;
   font-family: "Graphit";
   font-weight: 500;
@@ -940,6 +941,49 @@ b i:last-child {
 .align-content {
   text-align: center;
   margin-bottom: 6rem;
+}
+
+.section h1 {
+  z-index: 1;
+  mix-blend-mode: multiply;
+  color: rgba(0,0,0,0.85);
+  font-size: calc(1.6rem + 3vw);
+  font-family: "Graphit-BoldItalic", "Poppins", "sans-serif";
+  line-height: 1.2;
+  letter-spacing: -0.020em;
+  text-align: right;
+  padding-left: 2vw;
+}
+
+.ball {
+  position: relative;
+  flex-shrink: 0;
+  width: 38.197vw;
+  height: 38.197vw;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.noise {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  filter: contrast(200%) brightness(1000%) grayscale(100%);
+}
+#gradient {
+  width: 100%;
+  height: 100%;
+}
+.section {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
 }
 
 /* PORTFOLIO SECTION
@@ -1402,6 +1446,16 @@ textarea:focus {
 /* MEDIA QUERIES
 ==================================================*/
 
+@media (max-width:1399px){
+  #subheading02, #subheading03{
+    visibility: hidden;
+  }
+  .outline{
+    left: 10vw;
+    line-height: 2.2rem;
+  }
+}
+
 @media (max-width: 991px) {
   /*.layer01 {
     visibility: hidden;
@@ -1471,7 +1525,7 @@ textarea:focus {
     font-size: 12px;
   }
   .main-container {
-    padding: 50px 0;
+    padding: 25px 0;
   }
 }
 
