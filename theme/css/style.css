@@ -768,7 +768,7 @@ b i:last-child {
   left: 20vw;
   top: -30vh;
   text-transform: uppercase;
-  font-family: "Graphit";
+  font-family: "Graphit-Medium", "Poppins", sans-serif;
   font-weight: 500;
   color: #111;
   line-height: 2.8rem;
