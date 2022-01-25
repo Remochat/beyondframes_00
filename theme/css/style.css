@@ -662,21 +662,24 @@ b i:last-child {
 /* hero section
 ==================================================*/
 .contain-logo-square{
-  width:auto;
+  width:1000px;
+  height: auto;
   max-height: 100%;
   overflow: hidden;
+  margin:0 auto;
 }
 
 #logo-square {
+  width: auto;
   max-width: 100%;
-  height: auto;
+  height: 105vh;
   position:relative;
   bottom: 4vh;
   display: flex;
   justify-content: center;
   opacity:0;
   transform: translateY(20px);
-  animation: appearance 0.4s 1s ease-out forwards;
+  animation: appearance 0.4s 0.8s ease-out forwards;
 }
 
 @keyframes appearance {
