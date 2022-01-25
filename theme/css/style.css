@@ -641,6 +641,14 @@ b i:last-child {
 
 
 
+/* hero section
+==================================================*/
+.contain-logo-square{
+  width:auto;
+  max-height: 100%;
+  overflow: hidden;
+}
+
 #logo-square {
   max-width: 100%;
   height: auto;
@@ -660,17 +668,24 @@ b i:last-child {
   }
 }
 
-/* hero section
-==================================================*/
-
-#subheading01 { /**design & web**/
+#contain-sub01 {
   position: absolute;
   top: 16%;
   left:57%;
+  width:auto;
+  max-height: 100%;
+  /*background-color: #F5B700;*/
   transform: translate(-50%, -50%); /**positionning with the center of the element not the top left corner**/
+}
+
+#subheading01 { /**design & web**/
   max-width: 300px;
   height: auto;
   object-fit: contain;
+}
+
+#subheading01 img{
+  width: 300px;
 }
 
 @keyframes appearance {
@@ -680,48 +695,83 @@ b i:last-child {
   }
 }
 
-
-#subheading02 { /**stars**/
+#contain-sub02{
   position: absolute;
   top: 87%;
   left:32%;
-  transform: translate(-50%, -50%);
+  max-width: 300px;
+  /*background-color: #F5B700;*/
+}
+
+#subheading02 { /**stars**/
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+#contain-sub03 {
+  position: absolute;
+  top: 72%;
+  left:68%;
+  height: 100px;
+  width: auto;
+  /*background-color: #F5B700;*/
+}
+
+#subheading03 { /**smiley**/
   max-width: 100%;
+  min-width: 50%;
   height: auto;
 }
 
-
-#subheading03 { /**smiley**/
-  position: absolute;
-  top: 80%;
-  left:70%;
-  transform: translate(-50%, -50%);
-  max-width: 100%;
-  height: auto;
+#contain-chat {
+  position:relative;
+  width: 300px;
+  left: 70%;
+  bottom: 46vh;
+  /*background-color: #F5B700;*/
 }
 
 .chat {
   color: black;
   font-family: 'Sedgwick Ave', cursive;
-  font-size: 2.2rem;
+  font-size: calc(1rem + 1.5vw);
   letter-spacing: .05rem;
-  position:relative;
-  left: 70%;
-  bottom: 26vh;
 }
 
 .outline { /**we create what matters**/
-  position: absolute;
-  top: 83%;
-  left:27%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction:column;
+  position:relative;
+  left: 20vw;
+  top: -40vh;
   text-transform: uppercase;
   font-family: "Graphit";
   font-weight: 500;
   color: #111;
-  line-height: 2.6rem;
-  font-size: 2.6rem;
-  text-align: left;
+  line-height: 2.8rem;
+  /*font-size: 2.6rem;*/
+  font-size: calc(1rem + 1.5vw);
+}
+
+.outline span{
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.outline > .anim:nth-child(1){
+  animation:appearance 0.8s 0.2s ease-out forwards;
+}
+.outline > span:nth-child(2){
+  animation:appearance 0.8s 0.4s ease-out forwards;
+}
+.outline > span:nth-child(3){
+  animation:appearance 0.8s 0.6s ease-out forwards;
+}
+.outline > span:nth-child(4){
+  animation:appearance 0.8s 0.8s ease-out forwards;
 }
 
 
