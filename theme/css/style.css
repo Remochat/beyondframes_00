@@ -1624,9 +1624,19 @@ textarea:focus {
     left: 10vw;
     bottom: 2vw;
   }
+  .hero-section{
+    /*visibility: hidden;*/  /*not the same*/
+    display: none;
+  }
+  .color-section {
+    margin: 11vh auto 8vh auto;
+  }
 }
 
 @media only screen and (max-width: 420px) {
+  .box-logo img{
+    margin-left:0px;
+  }
   .box-headline {
     font-size: 50px;
   }
@@ -1640,6 +1650,16 @@ textarea:focus {
   /**footer {
     visibility: hidden;
   }**/
+  .hero-section{
+    /*visibility: hidden;*/  /*not the same*/
+    display: none;
+  }
+  .color-section{
+    margin: 40vw auto 10vw auto;
+  }
+  .color-section h1{
+    font-size: 2rem;
+  }
 }
 
 /* try to debug *//*
