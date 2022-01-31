@@ -585,9 +585,13 @@ h6 {
   margin-bottom: 50px;
 }
 
-.box-social:hover {
-  transform: translateY(-2px);
+.box-social{
   transition: 0.4s;
+}
+
+.box-social:hover {
+  transform: translateY(-10%);
+  
 }
 
 .box-primary-nav .box-social a {
