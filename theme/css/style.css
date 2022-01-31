@@ -587,6 +587,7 @@ h6 {
 
 .box-social:hover {
   transform: translateY(-2px);
+  transition: 0.4s;
 }
 
 .box-primary-nav .box-social a {
