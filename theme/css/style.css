@@ -1175,10 +1175,6 @@ footer {
   text-decoration:none;
 }
 
-/*footer img {
-  margin: 0 auto;
-}*/
-
 /* back to top
 ==================================================*/
 .cd-top {
@@ -1457,6 +1453,35 @@ textarea:focus {
   color: #ffbf00;
 }
 
+/* privacy-policy page
+==================================================*/
+.black{
+  background-color: #111;
+  color: #fff;
+}
+
+.basic-text {
+  width: 70%;
+  margin: 100px auto 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.black h1, .black h2, .black h3 {
+ font-family: "Graphit-Bold";
+ color: #fff;
+}
+
+.basic-text a {
+  color: #777;
+}
+
+.basic-text a:hover {
+  color: #fff;
+  text-decoration:none;
+}
+
+
 /* google-map
 ==================================================*/
 .google-map {
@@ -1489,7 +1514,6 @@ textarea:focus {
   }
 }
 
-  
   @media only screen and (max-width: 991px) {
   .box-intro h5 {
     font-size: 16px;
@@ -1591,8 +1615,12 @@ textarea:focus {
 
 /**@media only screen and (min-device-width: 421px) and (max-device-width: 520px) {**/
   @media only screen and (max-width: 520px) {
+  .box-logo img{
+    margin-left:-30px;
+  }
+
   .box-headline {
-    font-size: 80px;
+  font-size: 80px;
   }
   .box-intro h5 {
     font-size: 12px;
@@ -1636,12 +1664,19 @@ textarea:focus {
   .color-section {
     margin: 11vh auto 8vh auto;
   }
+  .basic-text{        /*privacy-policy page*/
+    width:90%;
+  }
 }
 
 @media only screen and (max-width: 420px) {
-  .box-logo img{
-    margin-left:0px;
+  .box-header {
+    height: 10%;
   }
+  .box-logo {
+    padding:0 0 0 20px;
+  }
+
   .box-headline {
     font-size: 50px;
   }
