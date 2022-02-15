@@ -1670,9 +1670,9 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 420px) {
-  .box-header {   /*position the burger menu verticaly but not the img*/
+  /*.box-header {   /*position the burger menu verticaly but not the img*/
     /*height: 10%;*/
-  }
+  /*}*/
   .box-logo {
     padding:0 0 0 20px;
     height: 50%;
