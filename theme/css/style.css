@@ -395,7 +395,7 @@ h6 {
   z-index: 10;
 }
 
-.box-logo img{
+.box-logo img {
   height: 90px;
   width: auto;
   margin-top: 10px;
@@ -804,7 +804,6 @@ b i:last-child {
 .e {
   grid-area: 8 / 14 / span 1 / span 1;
 }
-
 #e-contain {
  background: url("https://beyondframes.co/theme/images/smile_beyond-frames.png") center no-repeat;
  background-size: contain;
@@ -879,7 +878,7 @@ b i:last-child {
     100%{
         background-size: 100% 100%;
         background-position: bottom left;
-  }
+    }
   }
   @keyframes underlined-smart-effect {
     from {
@@ -900,23 +899,24 @@ b i:last-child {
   }
   .grid {
     grid-template-columns: 1fr 1fr;
-    border: 2px solid red;
+    margin-left:10px;
+    margin-right:10px;
   }
   .a {
   grid-area: 3 / 1 / 7 / span 2;
-  border: 2px solid red;
+
   /*grid-row-start / grid-colum-start / grid-row-end / grid-column-end */
   }
   .b {
     grid-area: 2 / 2 / 2 / span 1;
-    border: 2px solid red;
+
   }
   #b-contain {
     background-position: right;
     }
   .c {
     grid-area: 7 / 2 / span 3 / span 1;
-    border: 2px solid red;
+ 
   }
   .c-contain {
    font-size: calc(2rem + 1.5vw);
@@ -932,28 +932,23 @@ b i:last-child {
   #d-contain {
     width: 20%;
     background-position: right;
-    border: 2px solid red;*/
   }
   .e {
     grid-area: 8 / 1 / span 1 / span 1;
-    border: 2px solid red;
   }
   .f {
     grid-area: 10 / 1 / span 1 / span 2;
-    border: 2px solid black;
   }
   .f-contain {
     font-size: calc(2rem + 1.5vw);
     text-align: center;
-    border: 2px solid red;
    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1200px){
   .grid{
     grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
-    margin-left:10px;
-    margin-right:10px;
+
   }
 }
 
@@ -1658,7 +1653,7 @@ textarea:focus {
 
 /* privacy-policy page
 ==================================================*/
-.black{
+.black {
   background-color: #111;
   color: #fff;
 }
@@ -1762,10 +1757,10 @@ textarea:focus {
   }
     #subheading01 img{ /**design & web**//*
     height: 7vw;
-    /*background-color: #959800;*/
-  }*/
+    /*background-color: #959800;*//*
+  }
 }
-
+*/
 /**
 @media only screen and (min-device-width: 521px) and (max-device-width: 670px) {**/
   /*@media only screen and (max-width: 670px) {
@@ -1925,4 +1920,4 @@ textarea:focus {
 }
 */
 
-/*# sourceMappingURL=style.css.map */
+/* # sourceMappingURL=style.css.map */
