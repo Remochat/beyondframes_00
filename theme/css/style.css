@@ -805,17 +805,15 @@ b i:last-child {
  background-size: contain;
 }
 
+#e-contain:hover{
+  transform:  rotate(360deg); /*translate(10px, 10%)*/
+  transition-duration: 500ms;
+  transform
+}
+
 .f {
   grid-area: 9 / 15 / span 1 / span 4;
 }
-
-/*#contain-chat {
-  position:relative;
-  width: 300px;
-  left: 70%;
-  bottom: 38vh;
-  /*background-color: #F5B700;*//*
-}*/
 
 .f-contain {
   color: black;
@@ -824,6 +822,10 @@ b i:last-child {
   letter-spacing: .05rem;
 }
 
+.f-contain:hover{
+  transform: scale(1.05);
+  transition-duration: 500ms;
+}
 
 
 /* animations*/
