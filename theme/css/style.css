@@ -2018,6 +2018,10 @@ textarea:focus {
     .color-section h1 {
       font-size: 2rem;
     }
+
+    .cd-top{
+      display: none;
+    }
   }
 
   /* try to debug */
