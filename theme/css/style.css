@@ -719,7 +719,7 @@ b i:last-child {
 .float-left {
   position: absolute;
   /*replace float*/
-  bottom: -50px;
+  bottom: -140px;
   /*replace float*/
   width: 30%;
   height: 80%;
@@ -932,6 +932,7 @@ a.underline-hover-effect {
 }
 
 /* @MEDIA QUERIES HOME HERO */
+/******************************/
 
 @media (max-width: 600px) {
 
@@ -946,11 +947,11 @@ a.underline-hover-effect {
   }
 
   .a {
-    grid-area: 4 / 1 / 7 / span 2;  /*grid-row-start / grid-colum-start / grid-row-end / grid-column-end */
+    grid-area: 3 / 1 / 7 / span 2;  /*grid-row-start / grid-colum-start / grid-row-end / grid-column-end */
   }
 
   .b {
-    grid-area: 3 / 2 / span 1 / span 1;
+    grid-area: 2 / 2 / span 1 / span 1;
   }
 
   #b-contain {
@@ -958,7 +959,7 @@ a.underline-hover-effect {
   }
 
   .c {
-    grid-area: 8 / 2 / span 3 / span 1;
+    grid-area: 7 / 2 / span 3 / span 1;
   }
 
   .c-contain {
